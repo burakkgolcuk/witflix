@@ -1,0 +1,11 @@
+.movie-detail {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.movie-detail img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

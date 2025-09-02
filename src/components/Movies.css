@@ -1,0 +1,16 @@
+.movieList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+.movieList a {
+  width: 31%;
+}
+
+.movieList img {
+  width: 100%;
+  border-radius: 0.5rem;
+}

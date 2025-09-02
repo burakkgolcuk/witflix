@@ -1,0 +1,31 @@
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('src/assets/bg.jpg') no-repeat center center/cover;
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+  aspect-ratio: 2/1;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: flex-start;
+}
+.hero-content a {
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+}
+.hero-content a:hover {
+  background-color: black;
+}
+
+@media (max-width: 575px) {
+  .hero-content {
+    font-size: 0.9rem;
+  }
+}

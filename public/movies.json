@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Blacklist",
+    "img": "blacklist.jpg",
+    "type": 0,
+    "cat": "Popüler",
+    "duration": "16 + 2h 21min"
+  },
+  {
+    "id": 2,
+    "name": "Titanic",
+    "img": "titanic.jpg",
+    "type": 0,
+    "cat": "Popüler",
+    "duration": "16 + 2h 21min"
+  },
+  {
+    "id": 3,
+    "name": "Berlin",
+    "img": "9.jpg",
+    "type": 0,
+    "cat": "Dram",
+    "duration": "16 + 2h 21min"
+  },
+  {
+    "id": 4,
+    "name": "Prison Break",
+    "img": "4.jpg",
+    "type": 1,
+    "cat": "Komedi",
+    "duration": "16 + 2h 21min"
+  },
+  {
+    "id": 5,
+    "name": "the MAdnes",
+    "img": "5.jpg",
+    "type": 1,
+    "cat": "Komedi",
+    "duration": "16 + 2h 21min"
+  },
+  {
+    "id": 6,
+    "name": "Blacklist",
+    "img": "6.jpg",
+    "type": 1,
+    "cat": "Korku",
+    "duration": "16 + 2h 21min"
+  }
+]

@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.d-flex2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+footer .term {
+  font-size: 0.8rem;
+  width: 50%;
+}
+footer .term p {
+  text-align: justify;
+}
+footer nav a {
+  transition: 0.3s;
+}
+footer nav a:hover {
+  color: red;
+}
+
+footer .apps-logo img {
+  height: 2rem;
+}
+
+@media (max-width: 575px) {
+  footer {
+    flex-direction: column;
+  }
+  footer .term {
+    width: 100%;
+  }
+  footer .apps-logo {
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,54 @@
+header {
+  padding: 1rem 0;
+}
+
+header img.logo {
+  height: 25px;
+}
+
+header nav {
+  gap: 1rem;
+}
+
+header nav a {
+  transition: 0.4s;
+}
+
+header nav a:hover {
+  color: red;
+}
+
+header .search {
+  gap: 1rem;
+}
+
+.search input {
+  color: #fff;
+  background: transparent;
+  border-radius: 0.3rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(132, 136, 137);
+  border-image: initial;
+  padding: 0.1rem 0.6rem;
+  outline: none;
+  transition: border-color 0.4s;
+}
+
+header .search i {
+  cursor: pointer;
+}
+
+@media (max-width: 575px) {
+  header {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  header .search {
+    order: 2;
+  }
+  header nav {
+    order: 3;
+    margin: 0 auto;
+  }
+}
