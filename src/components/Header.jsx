@@ -1,11 +1,13 @@
+// src/components/Header.jsx
 import './Header.css';
 import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 function Header() {
   return (
     <header className="d-flex">
       <Link to="/">
-        <img className="logo" src="/src/assets/logo.png" alt="" />
+        <img className="logo" src={logo} alt="Logo" />
       </Link>
       <nav className="d-flex">
         <Link to="/movies/popüler">Popüler</Link>
