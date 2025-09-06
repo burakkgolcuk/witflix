@@ -1,4 +1,10 @@
+// src/components/Footer.jsx
 import './Footer.css';
+import facebookIcon from '../assets/facebook-icon.png';
+import twitterIcon from '../assets/twitter-icon.png';
+import youtubeIcon from '../assets/youtube-icon.png';
+import applestore from '../assets/applestore.png';
+import googleplay from '../assets/googleplay.png';
 
 function Footer() {
   return (
@@ -11,25 +17,24 @@ function Footer() {
           <a href="">Watch List</a>
         </nav>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry...
         </p>
       </div>
+
       <div className="social d-flex2">
         <h4>Follow Us</h4>
         <div className="apps-logo d-flex">
-          <img src="src/assets/facebook-icon.png" alt="" />
-          <img src="src/assets/twitter-icon.png" alt="" />
-          <img src="src/assets/youtube-icon.png" alt="" />
+          <img src={facebookIcon} alt="Facebook" />
+          <img src={twitterIcon} alt="Twitter" />
+          <img src={youtubeIcon} alt="YouTube" />
         </div>
       </div>
+
       <div className="apps d-flex2">
         <h4>Apps</h4>
         <div className="apps-logo d-flex">
-          <img src="src/assets/applestore.png" alt="" />
-          <img src="src/assets/googleplay.png" alt="" />
+          <img src={applestore} alt="App Store" />
+          <img src={googleplay} alt="Google Play" />
         </div>
       </div>
     </footer>
